@@ -1,6 +1,6 @@
 from unittest import TestLoader, TestSuite
 from HTMLTestRunner import HTMLTestRunner
-import test_calculator1
+from tests import test_calculator1
 import time
 
 example_tests =TestLoader().loadTestsFromTestCase(test_calculator1.MyTestCase)
